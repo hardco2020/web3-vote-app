@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Sidebar from '../components/Sidebar'
 
 const style = {
-  wrapper: `flex justify-center h-screen w-screen select-none bg-[#14202b] text-white`,
+  wrapper: `flex justify-center h-screen w-screen select-none bg-white text-black dark:bg-[rgb(15,23,42)] dark:text-white`,
   content: `max-w-[1400px] w-2/3 flex justify-between`,
 }
 
